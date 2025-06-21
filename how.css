@@ -1,0 +1,1276 @@
+/*banner start*/
+
+#banner {
+    background: url(../asset/images/banner.jpg);
+    width: 100%;
+    height: 89vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+}
+
+#banner .wrap{
+    width: 1240px;
+    display: flex;
+}
+#banner .wrap .content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#banner .wrap .content h1 {
+    width: 100%;
+    font-family:var(--font-family);
+    font-size: var(--fs-75);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#banner .wrap .content p {
+    width: 80%;
+    height: 15%;
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#banner .wrap .content button{
+    width: 37%;
+    font-family:var(--font-family);
+    font-size: var(--fs-18);
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+}
+#banner .wrap .banner-image{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .wrap .banner-image img{
+    width: 75%;
+    height: auto;
+}
+/*banner end*/
+/*add what start*/
+#Add-what {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#Add-what .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Add-what .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+}
+#Add-what .wrap .heading h1{
+    width: 70%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+#Add-what .wrap .heading .stop{
+    width: 70%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#Add-what .wrap .cards{
+        width: 100%;
+        height: 68%;
+        display: flex;
+        justify-content: space-between;
+}
+#Add-what .wrap .cards .card-one{
+        width: 290px;
+        height: auto;
+        background-color:var(--secondary-color);
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+}
+#Add-what .wrap .cards .card-one:hover{
+        width: 290px;
+        height: auto;
+        background-color:#F8BFBF;
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#Add-what .wrap .cards .card-one .img{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-one .img img{
+        width: 100%;
+        height: auto;
+}
+#Add-what .wrap .cards .card-one .content{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-one .content h1{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-24);
+        color: var(--primary-color);
+        text-transform: uppercase;
+}
+#Add-what .wrap .cards .card-one .content p{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-18);
+        color: var(--primary-color);
+}
+
+#Add-what .wrap .cards .card-two{
+        width: 290px;
+        height: auto;
+        background-color:var(--secondary-color);
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+}
+#Add-what .wrap .cards .card-two:hover{
+        width: 290px;
+        height: auto;
+        background-color:#C7F8BF;
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#Add-what .wrap .cards .card-two .img{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-two .img img{
+        width: 100%;
+        height: auto;
+}
+#Add-what .wrap .cards .card-two .content{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-two .content h1{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-24);
+        color: var(--primary-color);
+        text-transform: uppercase;
+}
+#Add-what .wrap .cards .card-two .content p{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-18);
+        color: var(--primary-color);
+}
+
+#Add-what .wrap .cards .card-three{
+        width: 290px;
+        height: auto;
+        background-color:var(--secondary-color);
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+}
+#Add-what .wrap .cards .card-three:hover{
+        width: 290px;
+        height: auto;
+        background-color:#F8F4BF;
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#Add-what .wrap .cards .card-three .img{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-three .img img{
+        width: 100%;
+        height: auto;
+}
+#Add-what .wrap .cards .card-three .content{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-three .content h1{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-24);
+        color: var(--primary-color);
+        text-transform: uppercase;
+}
+#Add-what .wrap .cards .card-three .content p{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-18);
+        color: var(--primary-color);
+}
+
+#Add-what .wrap .cards .card-four{
+        width: 290px;
+        height: auto;
+        background-color:var(--secondary-color);
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+}
+#Add-what .wrap .cards .card-four:hover{
+        width: 290px;
+        height: auto;
+        background-color:#BFDEF8;
+        border: transparent;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#Add-what .wrap .cards .card-four .img{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-four .img img{
+        width: 100%;
+        height: auto;
+}
+#Add-what .wrap .cards .card-four .content{
+        width: 250px;
+        height: auto;
+}
+#Add-what .wrap .cards .card-four .content h1{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-24);
+        color: var(--primary-color);
+        text-transform: uppercase;
+}
+#Add-what .wrap .cards .card-four .content p{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-18);
+        color: var(--primary-color);
+}
+/*add what end*/
+/*Find start*/
+#find {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#find .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#find .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+}
+#find .wrap .heading h1{
+    width: 70%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+}
+#find .wrap .heading .stop{
+    width: 40%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+    padding-top: 20px;
+}
+#find .wrap .main-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 30px 0px 30px 0px;
+    justify-content: space-evenly;
+}
+#find .wrap .main-card .card-one{
+    width: 47%;
+    height: auto;
+    background-color: var(--secondary-color);
+    border: transparent;
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+#find .wrap .main-card .card-one .img{
+    width: 50%;
+    height: auto;
+}
+#find .wrap .main-card .card-one .img img{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+}
+#find .wrap .main-card .card-one .content{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#find .wrap .main-card .card-one .content .top{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-one .content .top h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-one .content .top p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-one .content .bottom{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-one .content .bottom h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-one .content .bottom ul{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+}
+#find .wrap .main-card .card-one .content .bottom ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+/* card-two */
+#find .wrap .main-card .card-two{
+    width: 47%;
+    height: auto;
+    background-color: var(--secondary-color);
+    border: transparent;
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+#find .wrap .main-card .card-two .img{
+    width: 50%;
+    height: auto;
+}
+#find .wrap .main-card .card-two .img img{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+}
+#find .wrap .main-card .card-two .content{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#find .wrap .main-card .card-two .content .top{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-two .content .top h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-two .content .top p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-two .content .bottom{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-two .content .bottom h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-two .content .bottom ul{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+}
+#find .wrap .main-card .card-two .content .bottom ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+/* card-three */
+#find .wrap .main-card .card-three{
+    width: 47%;
+    height: auto;
+    background-color: var(--secondary-color);
+    border: transparent;
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+#find .wrap .main-card .card-three .img{
+    width: 50%;
+    height: auto;
+}
+#find .wrap .main-card .card-three .img img{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+}
+#find .wrap .main-card .card-three .content{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#find .wrap .main-card .card-three .content .top{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-three .content .top h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-three .content .top p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-three .content .bottom{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-three .content .bottom h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-three .content .bottom ul{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+}
+#find .wrap .main-card .card-three .content .bottom ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+/* card-four */
+#find .wrap .main-card .card-four{
+    width: 47%;
+    height: auto;
+    background-color: var(--secondary-color);
+    border: transparent;
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+#find .wrap .main-card .card-four .img{
+    width: 50%;
+    height: auto;
+}
+#find .wrap .main-card .card-four .img img{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+}
+#find .wrap .main-card .card-four .content{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#find .wrap .main-card .card-four .content .top{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-four .content .top h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-four .content .top p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-four .content .bottom{
+    width: 100%;
+    height: auto;
+}
+#find .wrap .main-card .card-four .content .bottom h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#find .wrap .main-card .card-four .content .bottom ul{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+}
+#find .wrap .main-card .card-four .content .bottom ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+/*Find end*/
+/*never start*/
+#never {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#never .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#never .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+}
+#never .wrap .heading h1{
+    width: 70%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+#never .wrap .heading .stop{
+    width: 70%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+/* section-one */
+#never .wrap .section-one{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 30px;
+        background-color: aquamarine;
+}
+#never .wrap .section-one .image{
+        width: 30%;
+        height: auto;
+}
+#never .wrap .section-one .image img{
+        width: 100%;
+        height: auto;
+}
+#never .wrap .section-one .img-one{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #C7F8BF;
+}
+#never .wrap .section-one .img-one img{
+    width: 20%;
+    height: auto;
+}
+#never .wrap .section-one .content{
+        width: 28%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary-color);
+        border: transparent;
+        border-radius: 25px;
+        padding: 20px;
+}
+#never .wrap .section-one .content .icon{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: -20%;
+}
+#never .wrap .section-one .content .icon img{
+        width: 100%;
+        height: auto;
+}
+#never .wrap .section-one .content .head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+}
+#never .wrap .section-one .content .head h1{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-40);
+        color: var(--secondary-color);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 30px 0px 10px 0px;
+}
+#never .wrap .section-one .content .head p{
+        width: 80%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-18);
+        color: var(--secondary-color);
+        text-align: center;
+        padding: 10px 0px 30px 0px;
+}
+/* section-two */
+#never .wrap .section-two{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 30px;
+        background-color: aquamarine;
+}
+#never .wrap .section-two .image{
+        width: 30%;
+        height: auto;
+}
+#never .wrap .section-two .image img{
+        width: 100%;
+        height: auto;
+}
+#never .wrap .section-two .img-one{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #C7F8BF;
+}
+#never .wrap .section-two .img-one img{
+    width: 20%;
+    height: auto;
+}
+#never .wrap .section-two .content{
+        width: 28%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary-color);
+        border: transparent;
+        border-radius: 25px;
+        padding: 20px;
+}
+#never .wrap .section-two .content .icon{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: -20%;
+}
+#never .wrap .section-two .content .icon img{
+        width: 100%;
+        height: auto;
+}
+#never .wrap .section-two .content .head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+}
+#never .wrap .section-two .content .head h1{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-40);
+        color: var(--secondary-color);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 30px 0px 10px 0px;
+}
+#never .wrap .section-two .content .head p{
+        width: 90%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-18);
+        color: var(--secondary-color);
+        text-align: center;
+        padding: 10px 0px 30px 0px;
+}
+/* section-three */
+#never .wrap .section-three{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 30px;
+        background-color: aquamarine;
+}
+#never .wrap .section-three .image{
+        width: 30%;
+        height: auto;
+}
+#never .wrap .section-three .image img{
+        width: 100%;
+        height: auto;
+}
+#never .wrap .section-three .img-one{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #C7F8BF;
+}
+#never .wrap .section-three .img-one img{
+    width: 20%;
+    height: auto;
+}
+#never .wrap .section-three .content{
+        width: 28%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color: var(--primary-color);
+        border: transparent;
+        border-radius: 25px;
+        padding: 20px;
+}
+#never .wrap .section-three .content .icon{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: -20%;
+}
+#never .wrap .section-three .content .icon img{
+        width: 100%;
+        height: auto;
+}
+#never .wrap .section-three .content .head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+}
+#never .wrap .section-three .content .head h1{
+        width: 100%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-40);
+        color: var(--secondary-color);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 30px 0px 10px 0px;
+}
+#never .wrap .section-three .content .head p{
+        width: 80%;
+        height: auto;
+        font-family: var(--font-family);
+        font-size: var(--fs-18);
+        color: var(--secondary-color);
+        text-align: center;
+        padding: 10px 0px 30px 0px;
+}
+/*never end*/
+/*plan start*/
+#plan {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#plan .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#plan .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+}
+#plan .wrap .heading h1{
+    width: 70%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+#plan .wrap .heading .stop{
+    width: 70%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#plan .wrap .section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    padding: 30px 0px 0px 0px;
+}
+/* cal-one */
+#plan .wrap .section .cal-one{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #F8BFBF; */
+}
+#plan .wrap .section .cal-one .top{
+    background: url(../asset/images/caltop.png);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    width: 346px;
+    height: 144px;
+}
+#plan .wrap .section .cal-one .top h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-40);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 65px;
+}
+#plan .wrap .section .cal-one .bottom{
+    background: url(../asset/images/calbottom.png);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    width: 346px;
+    height: 213px;
+    /* background-color: bisque; */
+}
+#plan .wrap .section .cal-one .bottom h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top:25px; 
+}
+#plan .wrap .section .cal-one .bottom p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top:5px; 
+}
+/* cal-two */
+#plan .wrap .section .cal-two{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #F8BFBF; */
+}
+#plan .wrap .section .cal-two .top{
+    background: url(../asset/images/caltop.png);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    width: 346px;
+    height: 144px;
+    /* background-color: bisque; */
+}
+#plan .wrap .section .cal-two .top h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-40);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 65px;
+}
+#plan .wrap .section .cal-two .bottom{
+    background: url(../asset/images/calbottom.png);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    width: 346px;
+    height: 213px;
+    /* background-color: bisque; */
+}
+#plan .wrap .section .cal-two .bottom h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top:25px; 
+}
+#plan .wrap .section .cal-two .bottom p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top:5px; 
+}
+/* cal-three */
+#plan .wrap .section .cal-three{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #F8BFBF; */
+}
+#plan .wrap .section .cal-three .top{
+    background: url(../asset/images/caltop.png);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    width: 349px;
+    height: 144px;
+    /* background-color: bisque; */
+}
+#plan .wrap .section .cal-three .top h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-40);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 65px;
+}
+#plan .wrap .section .cal-three .bottom{
+    background: url(../asset/images/calbottom.png);
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    width: 346px;
+    height: 213px;
+    /* background-color: bisque; */
+}
+#plan .wrap .section .cal-three .bottom h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top:25px; 
+}
+#plan .wrap .section .cal-three .bottom p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+    text-align: center;
+    padding-top:5px; 
+}
+/*plan end*/
+/*share start*/
+#Share {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#Share .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Share .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+}
+#Share .wrap .heading h1{
+    width: 70%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+#Share .wrap .heading .stop{
+    width: 70%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#Share .wrap .section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+#Share .wrap .section .image{
+    width: 35%;
+    height: auto;
+}
+#Share .wrap .section .image img{
+    width: 100%;
+    height: auto;
+}
+#Share .wrap .section .content{
+    width: 50%;
+    height: auto;
+}
+#Share .wrap .section .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+}
+#Share .wrap .section .content ul{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#Share .wrap .section .content ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#Share .wrap .section .content button{
+    width: 30%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+/*share end*/
+#final-banner {
+    background: url(../asset/images/fb.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+
+}
+#final-banner .wrap{
+    width: 1240px;
+    display: flex;
+}
+#final-banner .wrap .final-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#final-banner .wrap .final-content h1 {
+    width: 100%;
+    font-family:var(--font-family);
+    font-size: var(--fs-75);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#final-banner .wrap .final-content p {
+    width: 80%;
+    height: 15%;
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#final-banner .wrap .final-content button{
+    width: 37%;
+    font-family:var(--font-family);
+    font-size: var(--fs-18);
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+}
+
+

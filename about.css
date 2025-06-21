@@ -1,0 +1,692 @@
+/*banner start*/
+
+#banner {
+    background: url(../asset/images/banner.jpg);
+    width: 100%;
+    height: 89vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+}
+
+#banner .wrap{
+    width: 1240px;
+    display: flex;
+}
+#banner .wrap .content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#banner .wrap .content h1 {
+    width: 100%;
+    font-family:var(--font-family);
+    font-size: var(--fs-75);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#banner .wrap .content p {
+    width: 90%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-bottom: 20px;
+}
+#banner .wrap .content button{
+    width: 37%;
+    font-family:var(--font-family);
+    font-size: var(--fs-18);
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+}
+#banner .wrap .banner-image{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .wrap .banner-image img{
+    width: 75%;
+    height: auto;
+}
+/*banner end*/
+/*our-mission start*/
+#our-mission {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#our-mission .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#our-mission .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+}
+#our-mission .wrap .heading h1{
+    width: 70%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+#our-mission .wrap .heading .stop{
+    width: 70%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#our-mission .wrap .section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+#our-mission .wrap .section .image{
+    width: 35%;
+    height: auto;
+}
+#our-mission .wrap .section .image img{
+    width: 100%;
+    height: auto;
+}
+#our-mission .wrap .section .content{
+    width: 50%;
+    height: auto;
+}
+#our-mission .wrap .section .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+padding-bottom: 30px;
+}
+#our-mission .wrap .section .content p{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-18);
+color: var(--primary-color);
+}
+/*our-mission end*/
+/*our-values start*/
+#our-values {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#our-values .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#our-values .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px 0px 0px;
+}
+#our-values .wrap .heading h1{
+    width: 70%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+#our-values .wrap .heading .stop{
+    width: 70%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#our-values .wrap .cards{
+    display: flex;
+    gap: 10px;
+} 
+/* card one */
+#our-values .wrap .card_one{
+    width: 305px;
+    height: auto;
+}
+#our-values .wrap .card_one .icon{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    justify-content:center;
+}
+#our-values .wrap .card_one .icon img{
+    width: 89px;
+    height: 89px;
+}
+#our-values .wrap .card_one .content{
+    background: url(../asset/images/Rectangle\ 291.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+#our-values .wrap .card_one .content h5{
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color: var(--secondary-color);
+    padding-top: 10px;
+}
+#our-values .wrap .card_one .content p{
+    width: 90%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    color:var(--secondary-color);
+    padding-top: 30px;
+}
+
+/* card sec */
+#our-values .wrap .card_sec{
+    width: 305px;
+    height: auto;
+}
+#our-values .wrap .card_sec .icon{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    justify-content:center;
+}
+#our-values .wrap .card_sec .icon img{
+    width: 89px;
+    height: 89px;
+}
+#our-values .wrap .card_sec .content{
+    background: url(../asset/images/Rectangle\ 291.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+#our-values .wrap .card_sec .content h5{
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color: var(--secondary-color);
+    padding-top: 10px;
+}
+#our-values .wrap .card_sec .content p{
+    width: 90%;
+    font-family:var(--font-family);
+    font-size: var(--fs-18);
+    color:var(--secondary-color);
+    padding-top: 30px;
+}
+
+/* card three */
+#our-values .wrap .card_three{
+    width: 305px;
+    height: auto;
+}
+#our-values .wrap .card_three .icon{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    justify-content:center;
+}
+#our-values .wrap .card_three .icon img{
+    width: 89px;
+    height: 89px;
+}
+#our-values .wrap .card_three .content{
+    background: url(../asset/images/Rectangle\ 291.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+#our-values .wrap .card_three .content h5{
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-top: 10px;
+}
+#our-values .wrap .card_three .content p{
+    width: 90%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    color:var(--secondary-color);
+    padding-top: 30px;
+}
+
+/* card four */
+#our-values .wrap .card_four{
+    width: 305px;
+    height: auto;
+}
+#our-values .wrap .card_four .icon{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    justify-content:center;
+}
+#our-values .wrap .card_four .icon img{
+    width: 89px;
+    height: 89px;
+}
+#our-values .wrap .card_four .content{
+    background: url(../asset/images/Rectangle\ 291.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+#our-values .wrap .card_four .content h5{
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-top: 10px;
+}
+#our-values .wrap .card_four .content p{
+    width: 90%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    color:var(--secondary-color);
+    padding-top: 30px;
+}
+/*our-values end*/
+/*our-journey start*/
+#our-journey {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#our-journey .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#our-journey .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+}
+#our-journey .wrap .heading h1{
+    width: 100%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+#our-journey .wrap .heading .stop{
+    width: 90%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#our-journey .wrap .section-one {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#our-journey .wrap .section-one .content{
+    width: 30%;
+    height: auto;
+}
+#our-journey .wrap .section-one .content h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-128);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-one .content h2{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-one .content p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-one .line{
+    width: 30%;
+    height: auto;
+    padding-top: 60px;
+}
+#our-journey .wrap .section-one .line img{
+    width: 50%;
+    height: auto;
+}
+#our-journey .wrap .section-one .image{
+    width: 30%;
+    height: auto;
+}
+#our-journey .wrap .section-one .image img{
+    width: 100%;
+    height: auto;
+}
+
+
+#our-journey .wrap .section-two {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#our-journey .wrap .section-two .content{
+    width: 30%;
+    height: auto;
+}
+#our-journey .wrap .section-two .content h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-128);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-two .content h2{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-two .content p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-two .line{
+    width: 30%;
+    height: auto;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* background-color: brown; */
+}
+#our-journey .wrap .section-two .line img{
+    width: 50%;
+    height: auto;
+}
+#our-journey .wrap .section-two .image{
+    width: 30%;
+    height: auto;
+}
+#our-journey .wrap .section-two .image img{
+    width: 100%;
+    height: auto;
+}
+
+
+#our-journey .wrap .section-three {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#our-journey .wrap .section-three .content{
+    width: 30%;
+    height: auto;
+}
+#our-journey .wrap .section-three .content h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-128);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-three .content h2{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-24);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-three .content p{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#our-journey .wrap .section-three .line{
+    width: 30%;
+    height: auto;
+    padding-top: 60px;
+}
+#our-journey .wrap .section-three .line img{
+    width: 50%;
+    height: auto;
+}
+#our-journey .wrap .section-three .image{
+    width: 30%;
+    height: auto;
+}
+#our-journey .wrap .section-three .image img{
+    width: 100%;
+    height: auto;
+}
+/*our-journey end*/
+/*our project start*/
+#our-project {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#our-project .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#our-project .wrap .heading{
+        width: 100%;
+        height: 25%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 0px 0px 0px;
+}
+#our-project .wrap .heading h1{
+    width: 100%;
+    height: 20%;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+#our-project .wrap .heading .stop{
+    width: 90%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#our-project .wrap .section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+#our-project .wrap .section .image{
+    width: 30%;
+    height: auto;
+}
+#our-project .wrap .section .image img{
+    width: 100%;
+    height: auto;
+}
+#our-project .wrap .section .content{
+    width: 50%;
+    height: auto;
+}
+#our-project .wrap .section .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+padding-bottom: 30px;
+}
+#our-project .wrap .section .content p{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-18);
+color: var(--primary-color);
+padding-bottom: 30px;
+}
+#our-project .wrap .section .content button{
+    width: 40%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+
+#final-banner {
+    background: url(../asset/images/fibanner.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+
+}
+#final-banner .wrap{
+    width: 1240px;
+    display: flex;
+}
+#final-banner .wrap .final-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#final-banner .wrap .final-content h1 {
+    width: 100%;
+    font-family:var(--font-family);
+    font-size: var(--fs-75);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#final-banner .wrap .final-content p {
+    width: 90%;
+    height: 15%;
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#final-banner .wrap .final-content button{
+    width: 37%;
+    font-family:var(--font-family);
+    font-size: var(--fs-18);
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+}

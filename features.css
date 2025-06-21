@@ -1,0 +1,823 @@
+/*banner start*/
+
+#banner {
+    background: url(../asset/images/banner.jpg);
+    width: 100%;
+    height: 89vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+}
+
+#banner .wrap{
+    width: 1240px;
+    display: flex;
+}
+#banner .wrap .content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#banner .wrap .content h1 {
+    width: 100%;
+    font-family:var(--font-family);
+    font-size: var(--fs-75);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#banner .wrap .content p {
+    width: 80%;
+    height: 15%;
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#banner .wrap .content button{
+    width: 37%;
+    font-family:var(--font-family);
+    font-size: var(--fs-18);
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+}
+#banner .wrap .banner-image{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .wrap .banner-image img{
+    width: 65%;
+    height: auto;
+}
+/*banner end*/
+/*card start*/
+#cards{
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 84px 0px 84px 0px;
+
+}
+#cards .wrap{
+    width: 1240px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+#cards .wrap .card-one{
+    width: 305px;
+    height: 177px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards .wrap .card-one h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-40);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+#cards .wrap .card-one p{
+    width: 75%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+#cards .wrap .card-sec{
+    width: 305px;
+    height: 177px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards .wrap .card-sec h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-40);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+#cards .wrap .card-sec p{
+    width: 80%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+#cards .wrap .card-three{
+    width: 305px;
+    height: 177px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards .wrap .card-three h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-40);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+#cards .wrap .card-three p{
+    width: 75%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+#cards .wrap .card-four{
+    width: 305px;
+    height: 177px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards .wrap .card-four h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-40);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+#cards .wrap .card-four p{
+    width: 75%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*card end*/
+/*Add-what start*/
+#add-what {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#add-what .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+#add-what .wrap .heading{
+        width: 100%;
+        height: 40%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+}
+#add-what .wrap .heading h1{
+    width: 80%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+}
+#add-what .wrap .heading p{
+    width: 50%;
+    height: 40%;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#add-what .wrap .section-one{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#add-what .wrap .section-one .content{
+    width: 60%;
+    height: auto;
+    /* background-color: rgb(67, 165, 42); */
+}
+#add-what .wrap .section-one .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+}
+#add-what .wrap .section-one .content ul{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#add-what .wrap .section-one .content ul li{
+    width: 80%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-18);
+color: var(--primary-color);
+}
+#add-what .wrap .section-one .content button{
+    width: 30%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+#add-what .wrap .section-one .image{
+    width: 30%;
+    height: auto;
+    /* background-color: brown; */
+}
+#add-what .wrap .section-one .image img{
+    width: 100%;
+    height: auto;
+}
+/*Add-what end*/
+/*recipes start*/
+#recipes {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#recipes .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#recipes .wrap .heading{
+        width: 100%;
+        height: 40%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#recipes .wrap .heading h1{
+    width:40%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+}
+#recipes .wrap .heading p{
+    width: 60%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#recipes .wrap .section-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+#recipes .wrap .section-two .image{
+    width: 28%;
+    height: auto;
+}
+#recipes .wrap .section-two .image img{
+    width: 100%;
+    height: auto;
+}
+#recipes .wrap .section-two .content{
+    width: 50%;
+    height: auto;
+}
+#recipes .wrap .section-two .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+}
+#recipes .wrap .section-two .content ul{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#recipes .wrap .section-two .content ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#recipes .wrap .section-two .content button{
+    width: 30%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+/*recipes end*/
+/*smart start*/
+#Smart{
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#Smart .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Smart .wrap .heading{
+        width: 100%;
+        height: 40%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#Smart .wrap .heading h1{
+    width:40%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+}
+#Smart .wrap .heading p{
+    width: 60%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#Smart .wrap .section-three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#Smart .wrap .section-three .content{
+    width: 60%;
+    height: auto;
+    /* background-color: rgb(67, 165, 42); */
+}
+#Smart .wrap .section-three .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+}
+#Smart .wrap .section-three .content ul{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#Smart .wrap .section-three .content ul li{
+    width: 80%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-18);
+color: var(--primary-color);
+}
+#Smart .wrap .section-three .content button{
+    width: 30%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+#Smart .wrap .section-three .image{
+    width: 30%;
+    height: auto;
+    /* background-color: brown; */
+}
+#Smart .wrap .section-three .image img{
+    width: 100%;
+    height: auto;
+}
+/*smart end*/
+/*Your Start*/
+#your {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#your .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#your .wrap .heading{
+        width: 100%;
+        height: 40%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#your .wrap .heading h1{
+    width:40%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+}
+#your .wrap .heading p{
+    width: 60%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#your .wrap .section-four{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+#your .wrap .section-four .image{
+    width: 28%;
+    height: auto;
+}
+#your .wrap .section-four .image img{
+    width: 100%;
+    height: auto;
+}
+#your .wrap .section-four .content{
+    width: 50%;
+    height: auto;
+}
+#your .wrap .section-four .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+}
+#your .wrap .section-four .content ul{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#your .wrap .section-four .content ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#your .wrap .section-four .content button{
+    width: 30%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+/*Your end*/
+/*plan start*/
+#plan{
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#plan .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#plan .wrap .heading{
+        width: 100%;
+        height: 30%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#plan .wrap .heading h1{
+    width:40%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+}
+#plan .wrap .heading p{
+    width: 60%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#plan .wrap .section-five{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#plan .wrap .section-five .content{
+    width: 60%;
+    height: auto;
+    /* background-color: rgb(67, 165, 42); */
+}
+#plan .wrap .section-five .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+}
+#plan .wrap .section-five .content ul{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#plan .wrap .section-five .content ul li{
+    width: 80%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-18);
+color: var(--primary-color);
+}
+#plan .wrap .section-five .content button{
+    width: 30%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+#plan .wrap .section-five .image{
+    width: 30%;
+    height: auto;
+    /* background-color: brown; */
+}
+#plan .wrap .section-five .image img{
+    width: 100%;
+    height: auto;
+}
+/*plan end*/
+/*expiry start*/
+#expiry {
+    background: url(../asset/images/doodle.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+        padding-bottom: 80px;
+}
+#expiry .wrap{
+    width:1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#expiry .wrap .heading{
+        width: 100%;
+        height: 40%;
+        color:var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#expiry .wrap .heading h1{
+    width:40%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-40);
+    text-transform: uppercase;
+    text-align: center;
+}
+#expiry .wrap .heading p{
+    width: 60%;
+    height: auto;
+    font-family:var(--font-family);
+    font-size:var(--fs-18);
+    text-align: center;
+}
+#expiry .wrap .section-six{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+#expiry .wrap .section-six .image{
+    width: 28%;
+    height: auto;
+}
+#expiry .wrap .section-six .image img{
+    width: 100%;
+    height: auto;
+}
+#expiry .wrap .section-six .content{
+    width: 50%;
+    height: auto;
+}
+#expiry .wrap .section-six .content h1{
+    width: 100%;
+    height: auto;
+font-family: var(--font-family);
+font-size: var(--fs-40);
+color: var(--primary-color);
+text-transform: uppercase;
+}
+#expiry .wrap .section-six .content ul{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#expiry .wrap .section-six .content ul li{
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--primary-color);
+}
+#expiry .wrap .section-six .content button{
+    width: 30%;
+    height: auto;
+    font-family: var(--font-family);
+    font-size: var(--fs-18);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+    border: none;
+}
+/*expiry end*/
+/*final-banner Start*/
+#final-banner {
+    background: url(../asset/images/banner\ 22.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+
+}
+#final-banner .wrap{
+    width: 1240px;
+    display: flex;
+}
+#final-banner .wrap .final-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#final-banner .wrap .final-content h1 {
+    width: 100%;
+    font-family:var(--font-family);
+    font-size: var(--fs-75);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#final-banner .wrap .final-content p {
+    width: 80%;
+    height: 15%;
+    font-family:var(--font-family);
+    font-size:var(--fs-24);
+    color:var(--secondary-color);
+    padding-bottom: 10px;
+}
+#final-banner .wrap .final-content button{
+    width: 37%;
+    font-family:var(--font-family);
+    font-size: var(--fs-18);
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 99px;
+}
+/*final-banner Start*/
