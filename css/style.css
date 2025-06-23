@@ -467,6 +467,7 @@ nav ul button {
         position: absolute;
         transition: .5s;
         z-index: 1;
+        padding: 20px 0px 20px 0px;
         background-color: var(--primary-color);
     }
 
@@ -687,7 +688,7 @@ nav ul button {
     /* align-items: center; */
     /* align-content: center; */
     /* padding: 10px 0px 10px 0px; */
-    background-color:rgb(255, 0, 191);
+    /* background-color:rgb(255, 0, 191); */
 }
 #footer .wrap .two .stay .con {
     width: 100%;
@@ -705,7 +706,7 @@ nav ul button {
     font-family: var(--font-family);
     font-size: var(--fs-24);
     color: var(--secondary-color);
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 #footer .wrap .two .stay .con p {
@@ -890,6 +891,7 @@ nav ul button {
         position: absolute;
         transition: .5s;
         z-index: 1;
+        padding: 20px 0px 20px 0px;
         background-color: var(--primary-color);
     }
 

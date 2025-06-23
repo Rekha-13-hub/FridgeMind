@@ -2095,7 +2095,7 @@
     #final-banner {
         background: url(../images/frame.png);
         width: 100%;
-        height: 100vh;
+        height: 60vh;
         background-position: start;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3316,7 +3316,7 @@
     #final-banner {
         background: url(../images/frame.png);
         width: 100%;
-        height: 90vh;
+        height: 60vh;
         background-position: start;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3334,7 +3334,7 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         padding: 0px 0px 0px 20px;
     }
 
@@ -3343,7 +3343,7 @@
         font-family: var(--font-family);
         font-size: var(--fs-40);
         color: var(--secondary-color);
-   padding-bottom: 30px;
+   padding-top: 60px;
     }
 
     #final-banner .wrap .final-content p {
@@ -3352,7 +3352,7 @@
         font-family: var(--font-family);
         font-size: var(--fs-18);
         color: var(--secondary-color);
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
         /* padding-bottom: 10px; */
     }
 
