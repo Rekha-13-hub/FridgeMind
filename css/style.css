@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: my-font;
-    src: url(./asset/font/leelawad.ttf);
+    src: url(../font/leelawad.ttf);
 }
 
 :root {
@@ -82,6 +82,10 @@ nav .button button {
     border: none;
     padding: 10px 30px 10px 30px;
     border-radius: 99px;
+}
+nav .button button a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 nav ul button {
@@ -292,7 +296,6 @@ nav ul button {
     border-radius: 99px;
     padding: 10px 30px 10px 30px;
 }
-
 #footer .wrap .two .stay .con .button {
     width: 40%;
     height: auto;
@@ -324,6 +327,7 @@ nav ul button {
     font-family: var(--font-family);
     font-size: var(--fs-24);
     color: var(--secondary-color);
+    padding-bottom: 30px;
     /* padding: 40px 0px 20px 0px; */
 }
 
@@ -340,11 +344,18 @@ nav ul button {
     width: 100%;
     height: auto;
     display: flex;
-    gap: 30px;
+    /* justify-content: space-between; */
+    /* gap: -10px; */
+    /* background-color: aqua; */
 }
 
 #footer .wrap .two .ready .image-footer img {
-    width: 30%;
+    width: 70%;
+    height: auto;
+    /* background-color: blue; */
+}
+#footer .wrap .two .ready .image-footer img a {
+    width: 50%;
     height: auto;
 }
 
@@ -488,6 +499,10 @@ nav ul button {
         padding: 6px 20px 6px 20px;
         border-radius: 99px;
     }
+        nav ul button a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
 
     nav ul button {
         display: block;
@@ -501,6 +516,7 @@ nav ul button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* padding-top: 20px; */
     background-color: var(--primary-color);
 }
 #footer .wrap {
@@ -667,20 +683,20 @@ nav ul button {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
     /* padding: 10px 0px 10px 0px; */
-    /* background-color:rgb(255, 0, 191); */
+    background-color:rgb(255, 0, 191);
 }
 #footer .wrap .two .stay .con {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: start; */
     /* align-content: center; */
-    /* gap: 10px; */
+    /* gap: -100px; */
 }
 
 #footer .wrap .two .stay .con h1 {
@@ -689,7 +705,7 @@ nav ul button {
     font-family: var(--font-family);
     font-size: var(--fs-24);
     color: var(--secondary-color);
-    /* background-color: brown; */
+    background-color: brown;
 }
 
 #footer .wrap .two .stay .con p {
@@ -726,9 +742,9 @@ nav ul button {
     width: 100%;
     height: auto;
     display: flex;
-    gap:10px;
+    /* gap:10px; */
     flex-direction: column;
-    align-content: center;
+    /* align-content: center; */
     /* background-color: brown; */
 }
 
@@ -753,18 +769,18 @@ nav ul button {
     font-family: var(--font-family);
     font-size: var(--fs-18);
     color: var(--secondary-color);
-    padding-bottom: 20px;
+    /* padding-bottom: -50px; */
 }
 
 #footer .wrap .two .ready .image-footer {
     width: 100%;
     height: auto;
     display: flex;
-    gap: 30px;
+    /* gap: 30px; */
 }
 
 #footer .wrap .two .ready .image-footer img {
-    width: 30%;
+    width: 90%;
     height: auto;
 }
 
@@ -906,6 +922,10 @@ nav ul button {
         padding: 6px 20px 6px 20px;
         border-radius: 99px;
     }
+            nav ul button a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
 
     nav ul button {
         display: block;
@@ -1089,7 +1109,7 @@ nav ul button {
     align-items: center;
     align-content: center;
     /* padding: 10px 0px 10px 0px; */
-    background-color:rgb(255, 0, 191);
+    /* background-color:rgb(255, 0, 191); */
 }
 #footer .wrap .two .stay .con {
     width: 100%;
@@ -1107,7 +1127,7 @@ nav ul button {
     font-family: var(--font-family);
     font-size: var(--fs-24);
     color: var(--secondary-color);
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 #footer .wrap .two .stay .con p {
@@ -1117,7 +1137,7 @@ nav ul button {
     font-family: var(--font-family);
     font-size: var(--fs-24);
     color: var(--secondary-color);
-    background-color: blue;
+    /* background-color: blue; */
 }
 #footer .wrap .two .stay .con .email {
     width: 50%;
@@ -1152,7 +1172,7 @@ nav ul button {
 #footer .wrap .two .ready .cont {
     width: 100%;
     height: auto;
-    background-color: black;
+    /* background-color: black; */
 }
 
 #footer .wrap .two .ready .cont h2 {
@@ -1181,7 +1201,7 @@ nav ul button {
 }
 
 #footer .wrap .two .ready .image-footer img {
-    width: 30%;
+    width: 80%;
     height: auto;
 }
 
@@ -1302,6 +1322,10 @@ nav .button button {
     padding: 10px 20px 10px 20px;
     border-radius: 99px;
 }
+        nav ul button a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
 
 nav ul button {
     display: none;
@@ -1316,6 +1340,7 @@ nav ul button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
     background-color: var(--primary-color);
 }
 #footer .wrap {
@@ -1339,7 +1364,7 @@ nav ul button {
     /* background-color: aqua; */
 }
 #footer .wrap .one .logo img {
-    width: 40%;
+    width: 50%;
     height: auto;
     padding-bottom: 20px;
 }
@@ -1426,7 +1451,7 @@ nav ul button {
     display: flex;
     flex-direction: column;
     justify-content: start;
-
+padding-left: 10px;
 }
 
 #footer .wrap .one .links .follow h6 {
@@ -1443,6 +1468,7 @@ nav ul button {
     height: auto;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 
 }
 
@@ -1564,7 +1590,7 @@ nav ul button {
 }
 
 #footer .wrap .two .ready .image-footer img {
-    width: 30%;
+    width: 80%;
     height: auto;
 }
 

@@ -1,7 +1,7 @@
 /*banner start*/
 
 #banner {
-    background: url(../asset/images/banner.jpg);
+    background: url(../images/banner.jpg);
     width: 100%;
     height: 89vh;
     background-position: center;
@@ -46,6 +46,11 @@
     padding: 10px 30px 10px 30px;
     border-radius: 99px;
 }
+#banner .wrap .content button a{
+    text-decoration: none;
+    color:var(--primary-color);
+
+}
 #banner .wrap .banner-image{
     width: 60%;
     height: 100%;
@@ -60,7 +65,7 @@
 /*banner end*/
 /*our-mission start*/
 #our-mission {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -140,7 +145,7 @@ color: var(--primary-color);
 /*our-mission end*/
 /*our-values start*/
 #our-values {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -200,7 +205,7 @@ color: var(--primary-color);
     height: 89px;
 }
 #our-values .wrap .card_one .content{
-    background: url(../asset/images/Rectangle\ 291.png);
+    background: url(../images/Rectangle\ 291.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -242,7 +247,7 @@ color: var(--primary-color);
     height: 89px;
 }
 #our-values .wrap .card_sec .content{
-    background: url(../asset/images/Rectangle\ 291.png);
+    background: url(../images/Rectangle\ 291.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -284,7 +289,7 @@ color: var(--primary-color);
     height: 89px;
 }
 #our-values .wrap .card_three .content{
-    background: url(../asset/images/Rectangle\ 291.png);
+    background: url(../images/Rectangle\ 291.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -326,7 +331,7 @@ color: var(--primary-color);
     height: 89px;
 }
 #our-values .wrap .card_four .content{
-    background: url(../asset/images/Rectangle\ 291.png);
+    background: url(../images/Rectangle\ 291.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -354,7 +359,7 @@ color: var(--primary-color);
 /*our-values end*/
 /*our-journey start*/
 #our-journey {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: auto;
     background-position: center;
@@ -410,7 +415,7 @@ color: var(--primary-color);
     width: 100%;
     height: auto;
     font-family: var(--font-family);
-    font-size: var(--fs-128);
+    font-size: var(--fs-75);
     color: var(--primary-color);
 }
 #our-journey .wrap .section-one .content h2{
@@ -461,7 +466,7 @@ color: var(--primary-color);
     width: 100%;
     height: auto;
     font-family: var(--font-family);
-    font-size: var(--fs-128);
+    font-size: var(--fs-75);
     color: var(--primary-color);
 }
 #our-journey .wrap .section-two .content h2{
@@ -516,7 +521,7 @@ color: var(--primary-color);
     width: 100%;
     height: auto;
     font-family: var(--font-family);
-    font-size: var(--fs-128);
+    font-size: var(--fs-75);
     color: var(--primary-color);
 }
 #our-journey .wrap .section-three .content h2{
@@ -553,7 +558,7 @@ color: var(--primary-color);
 /*our-journey end*/
 /*our project start*/
 #our-project {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -643,9 +648,13 @@ padding-bottom: 30px;
     border-radius: 99px;
     border: none;
 }
+#our-project .wrap .section .content button a{
+    text-decoration: none;
+    color: var(--secondary-color); 
+}
 
 #final-banner {
-    background: url(../asset/images/fibanner.png);
+    background: url(../images/fibanner.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -689,4 +698,8 @@ padding-bottom: 30px;
     border: none;
     padding: 10px 30px 10px 30px;
     border-radius: 99px;
+}
+#final-banner .wrap .final-content button a{
+    text-decoration: none;
+    color:var(--primary-color);
 }

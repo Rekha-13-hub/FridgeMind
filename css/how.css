@@ -1,7 +1,7 @@
 /*banner start*/
 
 #banner {
-    background: url(../asset/images/banner.jpg);
+    background: url(../images/banner.jpg);
     width: 100%;
     height: 89vh;
     background-position: center;
@@ -46,6 +46,11 @@
     padding: 10px 30px 10px 30px;
     border-radius: 99px;
 }
+#banner .wrap .content button a{
+    text-decoration: none;
+    color:var(--primary-color);
+
+}
 #banner .wrap .banner-image{
     width: 60%;
     height: 100%;
@@ -60,7 +65,7 @@
 /*banner end*/
 /*add what start*/
 #Add-what {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -312,7 +317,7 @@
 /*add what end*/
 /*Find start*/
 #find {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: auto;
     background-position: center;
@@ -635,7 +640,7 @@
 /*Find end*/
 /*never start*/
 #never {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: auto;
     background-position: center;
@@ -684,7 +689,7 @@
         justify-content: space-evenly;
         align-items: center;
         padding-top: 30px;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
 }
 #never .wrap .section-one .image{
         width: 30%;
@@ -700,14 +705,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #C7F8BF;
+    /* background-color: #C7F8BF; */
 }
 #never .wrap .section-one .img-one img{
     width: 20%;
     height: auto;
 }
 #never .wrap .section-one .content{
-        width: 28%;
+        width: 30%;
         height: auto;
         position: relative;
         display: flex;
@@ -762,7 +767,7 @@
         justify-content: space-evenly;
         align-items: center;
         padding-top: 30px;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
 }
 #never .wrap .section-two .image{
         width: 30%;
@@ -778,14 +783,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #C7F8BF;
+    /* background-color: #C7F8BF; */
 }
 #never .wrap .section-two .img-one img{
     width: 20%;
     height: auto;
 }
 #never .wrap .section-two .content{
-        width: 28%;
+        width:30%;
         height: auto;
         position: relative;
         display: flex;
@@ -840,7 +845,7 @@
         justify-content: space-evenly;
         align-items: center;
         padding-top: 30px;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
 }
 #never .wrap .section-three .image{
         width: 30%;
@@ -856,14 +861,15 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #C7F8BF;
+    /* padding-left: 20px; */
+    /* background-color: #C7F8BF; */
 }
 #never .wrap .section-three .img-one img{
     width: 20%;
     height: auto;
 }
 #never .wrap .section-three .content{
-        width: 28%;
+        width: 30%;
         height: auto;
         position: relative;
         display: flex;
@@ -913,7 +919,7 @@
 /*never end*/
 /*plan start*/
 #plan {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -973,7 +979,7 @@
     /* background-color: #F8BFBF; */
 }
 #plan .wrap .section .cal-one .top{
-    background: url(../asset/images/caltop.png);
+    background: url(../images/caltop.png);
     background-repeat: no-repeat;
     background-position: start;
     background-size: contain;
@@ -990,7 +996,7 @@
     padding-top: 65px;
 }
 #plan .wrap .section .cal-one .bottom{
-    background: url(../asset/images/calbottom.png);
+    background: url(../images/calbottom.png);
     background-repeat: no-repeat;
     background-position: start;
     background-size: contain;
@@ -1027,7 +1033,7 @@
     /* background-color: #F8BFBF; */
 }
 #plan .wrap .section .cal-two .top{
-    background: url(../asset/images/caltop.png);
+    background: url(../images/caltop.png);
     background-repeat: no-repeat;
     background-position: start;
     background-size: contain;
@@ -1045,7 +1051,7 @@
     padding-top: 65px;
 }
 #plan .wrap .section .cal-two .bottom{
-    background: url(../asset/images/calbottom.png);
+    background: url(../images/calbottom.png);
     background-repeat: no-repeat;
     background-position: start;
     background-size: contain;
@@ -1082,7 +1088,7 @@
     /* background-color: #F8BFBF; */
 }
 #plan .wrap .section .cal-three .top{
-    background: url(../asset/images/caltop.png);
+    background: url(../images/caltop.png);
     background-repeat: no-repeat;
     background-position: start;
     background-size: contain;
@@ -1100,7 +1106,7 @@
     padding-top: 65px;
 }
 #plan .wrap .section .cal-three .bottom{
-    background: url(../asset/images/calbottom.png);
+    background: url(../images/calbottom.png);
     background-repeat: no-repeat;
     background-position: start;
     background-size: contain;
@@ -1129,7 +1135,7 @@
 /*plan end*/
 /*share start*/
 #Share {
-    background: url(../asset/images/doodle.png);
+    background: url(../images/doodle.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -1225,9 +1231,13 @@ text-transform: uppercase;
     border-radius: 99px;
     border: none;
 }
+#Share .wrap .section .content button a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
 /*share end*/
 #final-banner {
-    background: url(../asset/images/fb.png);
+    background: url(../images/fb.png);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -1271,6 +1281,10 @@ text-transform: uppercase;
     border: none;
     padding: 10px 30px 10px 30px;
     border-radius: 99px;
+}
+#final-banner .wrap .final-content button a{
+    text-decoration: none;
+    color:var(--primary-color);
 }
 
 
